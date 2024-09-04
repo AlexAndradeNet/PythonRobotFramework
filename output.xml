@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.9 on darwin)" generated="20240806 16:17:09.146" rpa="false" schemaversion="4">
+<suite id="s1" name="Home" source="/Users/alex.andrade/Downloads/YirleyRoman/Test/home_test/home.robot">
+<test id="s1-t1" name="Validate open Browser" line="9">
+<kw name="Start home" library="home_kw">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url_bfactor}</arg>
+<arg>${chrome}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240806 16:17:09.260" level="INFO">Opening browser 'gc' to base url 'http://blankfactor.com'.</msg>
+<status status="PASS" starttime="20240806 16:17:09.260" endtime="20240806 16:17:14.850"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20240806 16:17:14.850" endtime="20240806 16:17:15.226"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_ACCEPT_COOKIES}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240806 16:17:15.227" level="INFO">Clicking element 'id:hs-eu-confirmation-button'.</msg>
+<status status="PASS" starttime="20240806 16:17:15.226" endtime="20240806 16:17:15.279"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>${BTN_INSIGHTS}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20240806 16:17:15.279" endtime="20240806 16:17:15.562"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_INSIGHTS}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240806 16:17:15.562" level="INFO">Clicking element 'xpath:(//span[contains(.,'Insights')])[3]'.</msg>
+<status status="PASS" starttime="20240806 16:17:15.562" endtime="20240806 16:17:16.496"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>${BTN_BLOG}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20240806 16:17:16.497" endtime="20240806 16:17:16.774"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_BLOG}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240806 16:17:16.774" level="INFO">Clicking element 'xpath:(//a[@class='btn btn-blue'])[1]'.</msg>
+<status status="PASS" starttime="20240806 16:17:16.774" endtime="20240806 16:17:17.395"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>${LINK_POST}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<msg timestamp="20240806 16:17:18.587" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20240806 16:17:18.587" level="FAIL">Element with locator 'xpath://a[contains(.,'Why fintech in Latin America is booming')]' not found.</msg>
+<status status="FAIL" starttime="20240806 16:17:17.395" endtime="20240806 16:17:18.591"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${LINK_POST}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:18.591" endtime="20240806 16:17:18.591"/>
+</kw>
+<status status="FAIL" starttime="20240806 16:17:09.260" endtime="20240806 16:17:18.591"/>
+</kw>
+<kw name=" Expected result" library="home_kw">
+<status status="NOT RUN" starttime="20240806 16:17:18.591" endtime="20240806 16:17:18.591"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:18.591" endtime="20240806 16:17:18.591"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:18.591" endtime="20240806 16:17:18.591"/>
+</kw>
+<status status="FAIL" starttime="20240806 16:17:09.260" endtime="20240806 16:17:18.591">Element with locator 'xpath://a[contains(.,'Why fintech in Latin America is booming')]' not found.</status>
+</test>
+<test id="s1-t2" name="Validate subscription" line="15">
+<kw name="Start home" library="home_kw">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url_bfactor}</arg>
+<arg>${chrome}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240806 16:17:18.592" level="INFO">Opening browser 'gc' to base url 'http://blankfactor.com'.</msg>
+<status status="PASS" starttime="20240806 16:17:18.592" endtime="20240806 16:17:22.617"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20240806 16:17:22.617" endtime="20240806 16:17:23.022"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_ACCEPT_COOKIES}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240806 16:17:23.023" level="INFO">Clicking element 'id:hs-eu-confirmation-button'.</msg>
+<status status="PASS" starttime="20240806 16:17:23.022" endtime="20240806 16:17:23.078"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>${BTN_INSIGHTS}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20240806 16:17:23.078" endtime="20240806 16:17:23.362"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_INSIGHTS}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240806 16:17:23.363" level="INFO">Clicking element 'xpath:(//span[contains(.,'Insights')])[3]'.</msg>
+<status status="PASS" starttime="20240806 16:17:23.362" endtime="20240806 16:17:25.896"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>${BTN_BLOG}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20240806 16:17:25.896" endtime="20240806 16:17:26.177"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_BLOG}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240806 16:17:26.177" level="INFO">Clicking element 'xpath:(//a[@class='btn btn-blue'])[1]'.</msg>
+<status status="PASS" starttime="20240806 16:17:26.177" endtime="20240806 16:17:26.800"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>${LINK_POST}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<msg timestamp="20240806 16:17:28.159" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20240806 16:17:28.159" level="FAIL">Element with locator 'xpath://a[contains(.,'Why fintech in Latin America is booming')]' not found.</msg>
+<status status="FAIL" starttime="20240806 16:17:26.800" endtime="20240806 16:17:28.159"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${LINK_POST}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:28.159" endtime="20240806 16:17:28.159"/>
+</kw>
+<status status="FAIL" starttime="20240806 16:17:18.591" endtime="20240806 16:17:28.159"/>
+</kw>
+<kw name=" Subscription newsletter" library="home_kw">
+<status status="NOT RUN" starttime="20240806 16:17:28.159" endtime="20240806 16:17:28.159"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:28.160" endtime="20240806 16:17:28.160"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:28.160" endtime="20240806 16:17:28.160"/>
+</kw>
+<status status="FAIL" starttime="20240806 16:17:18.591" endtime="20240806 16:17:28.160">Element with locator 'xpath://a[contains(.,'Why fintech in Latin America is booming')]' not found.</status>
+</test>
+<test id="s1-t3" name="Validate printout list of fintech posts" line="21">
+<kw name="Search List Fintech" library="home_kw">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url_bfactor}</arg>
+<arg>${chrome}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240806 16:17:28.161" level="INFO">Opening browser 'gc' to base url 'http://blankfactor.com'.</msg>
+<status status="PASS" starttime="20240806 16:17:28.160" endtime="20240806 16:17:32.189"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20240806 16:17:32.189" endtime="20240806 16:17:32.617"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_ACCEPT_COOKIES}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240806 16:17:32.617" level="INFO">Clicking element 'id:hs-eu-confirmation-button'.</msg>
+<status status="PASS" starttime="20240806 16:17:32.617" endtime="20240806 16:17:32.681"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>${BTN_INSIGHTS}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20240806 16:17:32.681" endtime="20240806 16:17:32.962"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_INSIGHTS}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240806 16:17:32.963" level="INFO">Clicking element 'xpath:(//span[contains(.,'Insights')])[3]'.</msg>
+<status status="PASS" starttime="20240806 16:17:32.962" endtime="20240806 16:17:34.057"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>${BTN_BLOG}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20240806 16:17:34.057" endtime="20240806 16:17:34.343"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_BLOG}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240806 16:17:34.344" level="INFO">Clicking element 'xpath:(//a[@class='btn btn-blue'])[1]'.</msg>
+<status status="PASS" starttime="20240806 16:17:34.344" endtime="20240806 16:17:35.237"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>${LINK_POST}</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<msg timestamp="20240806 16:17:36.641" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20240806 16:17:36.641" level="FAIL">Element with locator 'xpath://a[contains(.,'Why fintech in Latin America is booming')]' not found.</msg>
+<status status="FAIL" starttime="20240806 16:17:35.237" endtime="20240806 16:17:36.641"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${LINK_POST}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:36.642" endtime="20240806 16:17:36.642"/>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:36.642" endtime="20240806 16:17:36.642"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BTN_SEARCH}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:36.642" endtime="20240806 16:17:36.642"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${INPUT_SEARCH}</arg>
+<arg>${txt_search}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:36.642" endtime="20240806 16:17:36.642"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:36.642" endtime="20240806 16:17:36.642"/>
+</kw>
+<kw name="Get WebElements" library="SeleniumLibrary">
+<var>@{result_list_fintech}</var>
+<arg>${FINTECH_ELEMENT}</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:36.642" endtime="20240806 16:17:36.642"/>
+</kw>
+<for flavor="IN">
+<var>${element}</var>
+<value>@{result_list_fintech}</value>
+<iter>
+<var name="${element}"/>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${titles_fintech}</var>
+<arg>${element}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:36.642" endtime="20240806 16:17:36.642"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:36.642" endtime="20240806 16:17:36.642"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${titles_fintech}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:36.642" endtime="20240806 16:17:36.642"/>
+</kw>
+<status status="NOT RUN" starttime="20240806 16:17:36.642" endtime="20240806 16:17:36.642"/>
+</iter>
+<status status="NOT RUN" starttime="20240806 16:17:36.642" endtime="20240806 16:17:36.642"/>
+</for>
+<status status="FAIL" starttime="20240806 16:17:28.160" endtime="20240806 16:17:36.642"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20240806 16:17:36.642" endtime="20240806 16:17:36.642"/>
+</kw>
+<status status="FAIL" starttime="20240806 16:17:28.160" endtime="20240806 16:17:36.643">Element with locator 'xpath://a[contains(.,'Why fintech in Latin America is booming')]' not found.</status>
+</test>
+<doc>Blog Blankfactor</doc>
+<status status="FAIL" starttime="20240806 16:17:09.147" endtime="20240806 16:17:36.643"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Home">Home</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240806 16:17:09.259" level="ERROR">Error in file '/Users/alex.andrade/Downloads/YirleyRoman/Resources/home/home_kw.resource' on line 4: Library '../../venv/lib/python3.10/site-packages/robot/libraries/OperatingSystem.py' does not exist.</msg>
+<msg timestamp="20240806 16:17:09.259" level="ERROR">Error in file '/Users/alex.andrade/Downloads/YirleyRoman/Resources/home/home_kw.resource' on line 5: Library '../../venv/lib/python3.10/site-packages/robot/libraries/Collections.py' does not exist.</msg>
+</errors>
+</robot>

@@ -1,0 +1,21 @@
+1694910095997	geckodriver	INFO	Listening on 127.0.0.1:50368
+1694910096516	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/Use ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/6v/bp7qmsjn6fncn76208dgkyt00000gn/T/rust_mozprofilevksK1d"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694910101913	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1694910102276	Marionette	INFO	Listening on port 50383
+Read port: 50383
+WebDriver BiDi listening on ws://127.0.0.1:50369
+1694910102812	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50369/devtools/browser/c76ed757-c4ff-4087-b1b9-3caeb473e743
+JavaScript warning: https://www.clickcease.com/monitor/stat.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.clickcease.com/monitor/stat.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-V7G5B53FSP&l=dataLayer&cx=c, line 504: Script terminated by timeout at:
+get@https://www.googletagmanager.com/gtag/js?id=G-V7G5B53FSP&l=dataLayer&cx=c:504:115
+stop@https://www.googletagmanager.com/gtag/js?id=G-V7G5B53FSP&l=dataLayer&cx=c:504:87
+aa.yk/c/<@https://www.googletagmanager.com/gtag/js?id=G-V7G5B53FSP&l=dataLayer&cx=c:504:412
+
+1694969711985	Marionette	INFO	Stopped listening on port 50383
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

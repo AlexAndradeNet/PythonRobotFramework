@@ -1,0 +1,5 @@
+chrome= "gc"
+firefox= "ff"
+url_bfactor= "http://blankfactor.com"
+email="holamundo@gmail.com"
+txt_search="fintech"
